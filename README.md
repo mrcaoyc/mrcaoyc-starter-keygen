@@ -2,6 +2,10 @@
 使用雪花算法生成主键
 
 #### 引入
+指定maven仓库地址：
+```
+maven { url "https://raw.github.com/mrcaoyc/maven-repo/releases/" }
+```
 gradle 导包
 ```
 implementation 'com.github.mrcaoyc:mrcaoyc-starter-keygen:1.0'
